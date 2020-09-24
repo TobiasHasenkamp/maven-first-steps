@@ -13,8 +13,8 @@ public class AppMainTest {
 
     @Test
     public void testIsBiggerThan100(){
-        boolean isBiggerThan100 = AppMain.testIfBiggerthan100(112);
-        assertTrue(isBiggerThan100);
+        boolean isBiggerThan100Result = AppMain.testIfBiggerthan100(112);
+        assertTrue(isBiggerThan100Result);
     }
 
     @Test

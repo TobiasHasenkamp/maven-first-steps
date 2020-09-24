@@ -1,5 +1,4 @@
 package de.neueFische;
-import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
@@ -14,13 +13,13 @@ public class AppMainTest {
 
     @Test
     public void testIsBiggerThan100(){
-        boolean isBiggerthan100Result = AppMain.testIfBiggerthan100(112);
-        assertEquals(isBiggerthan100Result, true);
+        boolean isBiggerThan100 = AppMain.testIfBiggerthan100(112);
+        assertTrue(isBiggerThan100);
     }
 
     @Test
     public void testModuloOfNumbersIsZero(){
         boolean moduloOfNumbersIsZero = AppMain.moduloOfNumbersIsZero(30, 15);
-        assertEquals(moduloOfNumbersIsZero, true);
+        assertTrue(moduloOfNumbersIsZero);
     }
 }
